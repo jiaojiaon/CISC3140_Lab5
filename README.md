@@ -67,6 +67,7 @@ Owners table:
 1. Sign up for a GitHub account if you don't have one. Set up your SSH keys with github.
 2. Clone this repository: `git clone git@github.com:jiaojiaon/CISC3140_Lab5.git` to your machine to get a copy.
 3. Also clone CISC3140_Lab4 repository and follow the `setup` part in readme to start: `git clone git@github.com:jiaojiaon/CISC3140_Lab4.git`
+4. Make sure CISC3140_Lab4 repository also open and get connect to the SQLite database
 5. Back to this repository move into the project's root directory with `cd CISC3140_Lab4`
 6. Then move into the client folder with `cd client`
 7. Run using the command below to connect the backend 
