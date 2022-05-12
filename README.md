@@ -53,7 +53,7 @@ You must have the following installed:
 - npm install router-dom
 
 ## Reference 
-- [CISC3140_lab5_files](https://github.com/AdinaScheinfeld/CISC3140.git) help me connect backend to frontend 
+- [CISC3140_lab5_files](https://github.com/AdinaScheinfeld/CISC3140.git) by our classmate Adina help me connect backend to frontend 
 - [react-creating-a-table](https://github.com/chrisblakely01/react-creating-a-table.git) help me create a table in react 
 - [Fullstack-CRUD-Application-Frontend](https://github.com/AdaMaldonado/Fullstack-CRUD-Application-Frontend.git) help me create a CSS style
 - [example-create-react-app-express](https://github.com/esausilva/example-create-react-app-express.git) help me start create a react app using express
