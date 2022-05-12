@@ -82,7 +82,6 @@ npm start
 ```
 
 ## Bug
-As you open the web and click on the Cars or Owners tab, you may see blank rows inside the table. That's because when I used postman to test my API, there are some mistakes happen so it added blank to the table.
+As you open the web and click on the Cars or Owners tab, you may see blank rows inside the table. That's because when I used postman to test my API, there are some mistakes happen so it added blank to the table. Even though there's data shown in the API, it can't print out for some reason. 
 
 Since I don't have time to work on the delete part, I can't delete the blank rows. 
-
