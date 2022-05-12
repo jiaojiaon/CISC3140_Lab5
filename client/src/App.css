@@ -1,38 +1,152 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+h1 {
+  margin: 1vh 1vw;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(20, 21, 100);
+  height: 120px;
+}
+
+.navbar > h1 {
+  letter-spacing: 1px;
+  margin-left: 30px;
+  font-size: 30px;
+  color: azure;
+}
+
+.nav-link {
+  letter-spacing: 1px;
+  padding-left: 40px;
+  text-decoration: none;
+  color: azure;
+}
+
+.nav-links{
+  font-size: 20px;
+}
+
+.nav-links > .nav-link:hover{
+  font-size: 25px;
+}
+
+.submit, button {
+  font-size: 1.5vh;
+  letter-spacing: 2px;
+  cursor: pointer;
+  user-select: none;
+  height: 4vh;
+  min-width: 100px;
+  width: 10vw;
+  color: azure;
+  background-color: steelblue;
+  border: none;
+  border-radius: 5px;
+  margin: 1vh;
+}
+
+.submit:hover, button:hover {
+  background-color: midnightblue;
+}
+
+.submit:disabled {
+  background-color: lightgrey;
+  color: white;
+  cursor: not-allowed;
+}
+
+span {
+  padding-left: 5px;
+}
+
+.homepage{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.homepage h1 {
+  margin: 3vh 0 1vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-list {
+  width: 40vw;
+  margin: 10vh auto;
+}
+
+.homepage ul {
+  list-style: none;
+  margin-bottom: 5vh;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.homepage li {
+  margin: 1vw 1vw;
+}
+
+.homepage li::before {
+  color: steelblue;
+  content: "• ";
+}
+
+.body-link {
+  text-decoration: none;
+  color: steelblue;
+}
+
+.Display {
+  /* top right bottom left */
+  padding: 1px 20px 10px 20px;
+  background-color: lightgray;
+  margin: 30px 10px;
+  border-radius: 10px;
+}
+
+.Form {
+  /* top right bottom left */
+  margin: 10px 0px 20px 0px;
+}
+
+.Input {
+  background-color: white;
+  border-color: gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.Table {
+  /* background-color: blue; */
+  border-radius: 5px;
+  padding: 10px;
+  /* top right bottom left*/
+  margin: 10px 0px 20px 0px;
+  box-align: center;
+}
+.HeaderCell {
+  /* top right bottom left */
+  padding: 10px 20px 10px 10px;
+  text-align: left;
+  background-color: rgb(46, 107, 187);
+  border-radius: 5px;
+}
+
+.Cell {
+  background-color: rgb(98, 139, 228);
+  padding: 10px 20px 10px 10px;
+  text-align: left;
+  border-radius: 5px;
 }
