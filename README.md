@@ -52,6 +52,12 @@ You must have the following installed:
 - npm install router 
 - npm install router-dom
 
+## Reference 
+- [CISC3140_lab5_files](https://github.com/AdinaScheinfeld/CISC3140.git) help me connect backend to frontend 
+- [react-creating-a-table](https://github.com/chrisblakely01/react-creating-a-table.git) help me create a table in react 
+- [Fullstack-CRUD-Application-Frontend](https://github.com/AdaMaldonado/Fullstack-CRUD-Application-Frontend.git) help me create a CSS style
+- [example-create-react-app-express](https://github.com/esausilva/example-create-react-app-express.git) help me start create a react app using express
+
 ## Storyboarding
 Cars table: 
 - Viewing all cars: Click on 'Cars' tab
@@ -74,3 +80,9 @@ Owners table:
 ```sh
 npm start
 ```
+
+## Bug
+As you open the web and click on the Cars or Owners tab, you may see blank rows inside the table. That's because when I used postman to test my API, there are some mistakes happen so it added blank to the table.
+
+Since I don't have time to work on the delete part, I can't delete the blank rows. 
+
